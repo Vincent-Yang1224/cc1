@@ -5,7 +5,11 @@
       "PowerShell(python -c \"import winsound; print\\('winsound: OK'\\)\" 2>&1)",
       "PowerShell(python -c \"import py_compile; py_compile.compile\\('pomodoro.py', doraise=True\\); print\\('Syntax OK'\\)\")",
       "PowerShell(Start-Process python -ArgumentList \"pomodoro.py\" -WindowStyle Normal -PassThru; Start-Sleep -Seconds 3; Write-Output \"Process launched\")",
-      "PowerShell(git *)"
+      "PowerShell(git *)",
+      "PowerShell(gh *)",
+      "PowerShell(winget install *)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(& \"C:\\Program Files\\GitHub CLI\\gh.exe\" auth login --hostname github.com --git-protocol ssh --web 2>&1)"
     ]
   }
 }
